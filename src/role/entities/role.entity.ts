@@ -1,0 +1,8 @@
+export class Role {
+  readonly id: string;
+  readonly uuid: string;
+  readonly sku: string;
+  readonly name: string;
+  readonly createdAt?: Date;
+  readonly updatedAt?: Date;
+}

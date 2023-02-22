@@ -1,4 +1,4 @@
-import { RoleType } from '../shared/enum/role-type.enum';
+import { Role } from 'src/role/entities/role.entity';
 
 export class CreateUserDto {
   readonly id: string;
@@ -6,7 +6,7 @@ export class CreateUserDto {
   readonly username: string;
   readonly email: string;
   readonly password: string;
-  readonly roles?: RoleType[];
+  readonly roles?: Role[];
   readonly createdAt?: Date;
   readonly updatedAt?: Date;
 }
